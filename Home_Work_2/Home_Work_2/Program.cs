@@ -16,11 +16,11 @@ namespace HomeWork_2
                 {
                     Console.WriteLine("y({0:0.00}) = {1:0.00}", x, segment2(x));
                 }
-                else if (x >= 0 && x <= 4)
+                else if (x >= 0 && x <= 2)
                 {
                     Console.WriteLine("y({0:0.00}) = {1:0.00}", x, segment3(x));
                 }
-                else if (x >= 4 && x <= 12)
+                else if (x >= 2 && x <= 12)
                 {
                     Console.WriteLine("y({0:0.00}) = {1:0.00}", x, segment4(x));
                 }
